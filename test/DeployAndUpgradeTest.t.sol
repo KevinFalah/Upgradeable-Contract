@@ -38,7 +38,6 @@ contract DeployAndUpgradeTest is Test {
         assert(expectedNumber == getNumber);
 
         string memory getName = BoxV2(proxy).getInitialName();
-        console.log(getName, "<---");
     }
 
     function testExpectRevertNoHaveFunction() public {
