@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.24;
 
-import {Test, console} from "forge-std/Test.sol";
+import {Test} from "forge-std/Test.sol";
 import {DeployBox} from "script/DeployBox.s.sol";
 import {UpgradeBox} from "script/UpgradeBox.s.sol";
 import {BoxV1} from "src/BoxV1.sol";
